@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg">
+
+
+        <TextView
+            android:id="@+id/cnttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="영상 시청 적립 안내"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="· 콘텐츠 전에 나오는 영상 광고 15초 이상 시청 시 적립됩니다."
+        android:ellipsize="end"
+        android:textColor="@color/darkgray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="· 매시각 정시에 선착순으로 참여가능 합니다."
+        android:ellipsize="end"
+        android:textColor="@color/darkgray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="· 수시로 확인하시면 많은 포인트를 적립하실 수 있습니다."
+        android:ellipsize="end"
+        android:textColor="@color/darkgray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stateListAnimator="@null"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/button_round"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="확인"
+            android:textSize="18dp" />
+
+
+
+</LinearLayout>

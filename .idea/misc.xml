@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_dropdown_item_1line.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_2.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_activated_1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/addmusic_bg.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/bg_main_row.xml" value="0.184" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/bg_maincampaign_row.xml" value="0.193" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/button_round.xml" value="0.256" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/button_round1.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/button_round_sub.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/button_store_selector.xml" value="0.2109375" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/button_stroke.xml" value="0.175" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/dialog_bg.xml" value="0.1765" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/edittext_rounded_corner_rectangle.xml" value="0.1785" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.165625" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1595" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.325" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.184" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_48.xml" value="0.184" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_chat_bubble_outline_24.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_content_copy_24.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_help_outline_24.xml" value="0.248" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_looks_3_24.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_looks_one_24.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_looks_two_24.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_monetization_on_24.xml" value="0.225" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.2" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_play_circle_outline_24.xml" value="0.225" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_baseline_play_circle_outline_48.xml" value="0.184" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1805" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1805" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1805" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1805" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/list_item.xml" value="0.184" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/menu_selector_color.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/progressbar.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/savepopup_bg.xml" value="0.184" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/square_background_border.xml" value="0.225" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/web5scountbg.xml" value="0.142" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/drawable/web_loading_progressbar.xml" value="0.1955" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/accessactivity.xml" value="0.190625" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/actionbar.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/actionbar_home_img.xml" value="0.17119565217391305" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/activity_main.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/addmusic_check.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/addmusic_confirm.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/addmusic_helpview.xml" value="0.14427083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/addmusic_search.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/addmusicactivity.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/addmusiclastactivity.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/cuponpopupview.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/fragment_dashboard.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/fragment_home.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/fragment_more.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/fragment_mypage.xml" value="0.165625" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/fragment_notifications.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/fragment_point.xml" value="0.3235955056179775" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/fragment_store.xml" value="0.1621376811594203" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/historyactivity.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/introactivity.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/list_header_more.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/list_item_access.xml" value="0.190625" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/list_item_child_notice.xml" value="0.3605072463768116" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/list_item_more.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/list_item_musicsearch.xml" value="0.14427083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/list_item_notice.xml" value="0.3444730077120823" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/list_item_pointhistory.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/list_item_support.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/loginactivity.xml" value="0.4399460188933873" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/musicdetailactivity.xml" value="0.295144157814871" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/musichelpview.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/musichelpview1.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/musicplatformview.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/noticeactivity.xml" value="0.3605072463768116" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/noticedetailactivity.xml" value="0.1828125" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/noticeimg.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/pointnewsactivity.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/policyactivity.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/popupnotice_lay.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/popupnoticeactivity.xml" value="0.22" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/prerollactivity.xml" value="0.15" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/prerollhelpview.xml" value="0.4649122807017544" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/profileactivity.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/progress.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/progress_indeterminate.xml" value="1.00625" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/rankmusicactivity.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/recommendactivity.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/recycler_item_music.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/recycler_item_musicrank.xml" value="0.48563218390804597" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/recycler_item_notice.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/recycler_item_playuser.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/recycler_item_rank.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/recycler_item_reply.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/recycler_item_store.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/reply_report_view.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/replymusicactivity.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/replywriteactivity.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/savepopupview.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/shareactivity.xml" value="0.1703125" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/shareview.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/signupactivity.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/storeactivity.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/storehelpview.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/supporthelpview.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/supportmusicactivity.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/view_item_carousel.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/layout/view_item_news.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/menu/actionbar_home_icon.xml" value="0.1671875" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/menu/actionbar_home_img.xml" value="0.1984375" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/menu/actionbar_musichelp.xml" value="0.14427083333333332" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/menu/actionbar_mypage.xml" value="0.153125" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/user/Desktop/song4u/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.193" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

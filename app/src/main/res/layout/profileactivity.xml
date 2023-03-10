@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/mImg"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            app:civ_border_overlay="true"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/darkgray"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sImg"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_baseline_settings_24"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center|bottom"
+            app:civ_border_overlay="true"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/darkgray"
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/mText"
+        android:text="닉네임"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+    <EditText
+        android:id="@+id/nicknameText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/edittext_rounded_corner_rectangle"
+        android:maxLength="12"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="  한글+숫자+영문 12자 이하"
+        android:inputType="text"
+         />
+
+    <TextView
+        android:id="@+id/cText"
+        android:text="0 / 12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="right"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+
+    <Button
+        android:id="@+id/modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/button_round"
+        android:stateListAnimator="@null"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="닉네임 수정"
+        android:textSize="18dp" />
+
+</LinearLayout>

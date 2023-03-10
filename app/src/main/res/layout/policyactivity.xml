@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/policy1"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tpolicy1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkgray"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:padding="5dp"
+            android:background="@drawable/bg_maincampaign_row"
+            android:layout_margin="5dp"
+            android:text="서비스 이용 약관"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:text="@string/policy1"
+                android:typeface="monospace" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/policy2"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tpolicy2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_margin="5dp"
+            android:text="개인 정보 처리 방침"
+            android:padding="5dp"
+            android:textColor="@color/darkgray"
+            android:background="@drawable/bg_maincampaign_row"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:text="@string/policy2"
+                android:typeface="monospace" />
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

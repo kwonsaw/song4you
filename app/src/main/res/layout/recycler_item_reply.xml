@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/mImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/mText"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_centerInParent="true"
+            android:text="asdasd"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+             />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_centerInParent="true"
+            android:text="asdasd"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/darkgray"
+            android:textSize="12dp"
+            />
+
+        <ImageView
+            android:id="@+id/sImage"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_more_vert_24"
+            android:visibility="visible"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/pbtn"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_round1"
+            android:visibility="gone"
+            android:scaleType="centerCrop"
+            android:stateListAnimator="@null"
+            android:text="신고"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:text="asdasd"
+        android:maxLines="5"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="@color/black"
+        android:textSize="17dp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/grey"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

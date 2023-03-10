@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.song4u">
+
+    <!-- 다윈 API 16 미만 시 적용 -->
+    <uses-sdk tools:overrideLibrary="org.chromium.net" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:allowBackup="true"
+        android:name=".Application.AppAplication"
+        android:configChanges="orientation|screenSize"
+        android:requestLegacyExternalStorage="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.Song4u">
+
+        <activity
+            android:name=".activity.IntroActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <!-- 초기에 실행 할 activity 선언 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".network.streaming.ForcedTerminationService"
+            android:stopWithTask="false" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".activity.SignupActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.PolicyActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.PrerollActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.SavePopupView"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBottomSheetDialogTheme">
+        </activity>
+
+        <activity
+            android:name=".activity.PointNewsActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.NoticeActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.NoticeDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.HistoryActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.AddMusicActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.AddMusicLastActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.MusicDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.ReplyMusicActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.ReplyWriteActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.RankMusicActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.AccessActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.SupportMusicActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.RecommendActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.ShareActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.StoreActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <!-- CropImageActivity -->
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"/> <!-- optional (needed if default theme has no action bar) -->
+
+        <!-- 카카오 API 관련 -->
+        <activity
+            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth" -->
+                <data
+                    android:host="oauth"
+                    android:scheme="@string/kakao_native_key" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity for BuzzAd -->
+        <meta-data
+            android:name="com.buzzvil.APP_KEY"
+            android:value="app-pub-16937947642769" />
+
+        <!-- 애드팝콘 -->
+        <meta-data android:name="adpopcorn_ssp_app_key" android:value="850160159" />
+
+        <!-- TNK -->
+        <!-- tnk pub 인벤토리-->
+        <meta-data android:name="tnk_pub_id" android:value="2000b020-a0b1-f8b6-6b8f-1b080a020f09" />
+        <meta-data android:name="tnkad_app_id" android:value="9080b010-e0c1-f8b6-6b8f-1c0c09090b0f" />
+
+        <activity android:name="com.tnkfactory.ad.AdWallActivity" />
+        <activity android:name="com.tnkfactory.ad.AdMediaActivity" android:screenOrientation="portrait"/>
+        <!-- TNK end-->
+
+
+    </application>
+
+</manifest>

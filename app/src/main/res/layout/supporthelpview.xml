@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg">
+
+
+    <TextView
+        android:id="@+id/cnttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="음원 후원 안내"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="· 보유하고 있는 포인트로 재생횟수를 후원할 수 있습니다. 재생횟수 1회당 50P가 차감됩니다."
+        android:ellipsize="end"
+        android:textColor="@color/darkgray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="· 증가, 감소 버튼을 꾹 누르고 있으면 빠르게 재생횟수를 조절할 수 있습니다."
+        android:ellipsize="end"
+        android:textColor="@color/darkgray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@null"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/button_round"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="확인"
+        android:textSize="18dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="TextProgressBar">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension"/>
+        <attr name="ci_height" format="dimension"/>
+        <attr name="ci_margin" format="dimension"/>
+        <attr name="ci_animator" format="reference"/>
+        <attr name="ci_animator_reverse" format="reference"/>
+        <attr name="ci_drawable" format="reference"/>
+        <attr name="ci_drawable_unselected" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularImageView">
+        <attr name="border" format="boolean"></attr>
+        <attr name="border_width1" format="dimension"></attr>
+        <attr name="border_color1" format="color"></attr>
+        <attr name="shadow" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="circularImageViewStyle" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="WScratchView">
+        <attr name="overlayColor" format="color"/>
+        <attr name="revealSize" format="dimension"/>
+        <attr name="antiAlias" format="boolean"/>
+        <attr name="scratchable" format="boolean"/>
+        <attr name="scratchDrawable" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="VerticalMarqueeTextView">
+        <attr
+            name="autoStartMarquee"
+            format="boolean" />
+        <attr
+            name="marqueeSpeed"
+            format="reference|integer" />
+        <attr
+            name="texts"
+            format="reference|string" />
+        <attr
+            name="textSizes"
+            format="reference|dimension" />
+        <attr
+            name="textColors"
+            format="reference|color" />
+        <attr
+            name="textAppearance"
+            format="reference" />
+        <attr name="textStyle">
+            <enum
+                name="normal"
+                value="0" />
+            <enum
+                name="bold"
+                value="1" />
+            <enum
+                name="italic"
+                value="2" />
+        </attr>
+        <attr name="typeface">
+            <enum
+                name="normal"
+                value="0" />
+            <enum
+                name="sans"
+                value="1" />
+            <enum
+                name="serif"
+                value="2" />
+            <enum
+                name="monospace"
+                value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="LoadingImageView">
+        <attr name="anim_auto_start" format="boolean" />
+        <attr name="mask_color" format="color" />
+    </declare-styleable>
+
+    <!--액션 버튼-->
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_shadow" format="boolean" />
+        <attr name="fab_type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="LinkEllipseTextView">
+        <attr name="isLinkable" format="boolean" />
+        <attr name="isEndEllipsable" format="boolean" />
+        <attr name="maxLines" format="integer" />
+        <attr name="textss" format="string" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="SeekBarPreference">
+        <attr name="min" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="value" format="integer"/>
+        <attr name="valueFormat" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="SudokuBoardView">
+        <attr name="lineColor" format="color"/>
+        <attr name="sectorLineColor" format="color"/>
+        <attr name="textColorss" format="color"/>
+        <attr name="textColorReadOnly" format="color"/>
+        <attr name="textColorNote" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="backgroundColorSecondary" format="color"/>
+        <attr name="backgroundColorReadOnly" format="color"/>
+        <attr name="backgroundColorTouched" format="color"/>
+        <attr name="backgroundColorSelected" format="color"/>
+    </declare-styleable>
+
+    <!--  Mezzo -->
+
+    <declare-styleable name="com.mapps.android.view.AdView">
+        <attr name="locationType" format="integer" />
+        <attr name="backgroundStretch" format="integer" />
+        <attr name="publisherCode" format ="string" />
+        <attr name="mediaCode" format ="string" />
+        <attr name="sectionCode" format ="string" />
+        <attr name="mediaType" format ="integer" />
+    </declare-styleable>
+    <declare-styleable name="com.mapps.android.view.EndingAdView">
+        <attr name="pCode" format ="string" />
+        <attr name="mCode" format ="string" />
+        <attr name="sCode" format ="string" />
+        <attr name="media_Type" format ="integer" />
+    </declare-styleable>
+
+
+</resources>

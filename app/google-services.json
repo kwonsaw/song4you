@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "574881331311",
+    "project_id": "song4u-64dff",
+    "storage_bucket": "song4u-64dff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574881331311:android:c947b0718c54768739f59a",
+        "android_client_info": {
+          "package_name": "com.example.song4u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574881331311-d91s7uap3et43am4solaafs5ti1ekeif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.song4u",
+            "certificate_hash": "855f574ed93b158acb042724f3003792d8ba91eb"
+          }
+        },
+        {
+          "client_id": "574881331311-dgres72jemujnvcui71nv47a7cvb4h8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.song4u",
+            "certificate_hash": "67b9e519e249cb3cb8446c91f01d818f2d468733"
+          }
+        },
+        {
+          "client_id": "574881331311-a63en97orjo1m1kkat0mkrldqo7inlfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlDeb_lssFxltYQrPQDZs1MZarx7eXTzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574881331311-a63en97orjo1m1kkat0mkrldqo7inlfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

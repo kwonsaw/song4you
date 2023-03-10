@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/addfriends"
+        />
+
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:textColor="@color/darkgray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="12sp"
+        android:text="추천인 아이디 "
+        />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@null"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/button_round"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="공유하기"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="친구추천 안내"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:textColor="@color/darkgray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="12sp"
+        android:text="· 추천인 아이디를 받은 친구가 회원가입 후 추천인 등록을 하면 친구와 추천인 모두 100P를 적립받습니다.\n· 추천인 등록을 통한 적립은 최대 10명까지 가능합니다.\n· 부정한 방법으로 추천인 등록을 받는 경우 포인트 회수 및 서비스 이용제한 조치를 받을 수 있습니다. "
+        />
+
+</LinearLayout>

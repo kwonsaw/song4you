@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/bio_scroll"
+            android:fillViewport="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+
+        <ImageView
+            android:id="@+id/bImage"
+            android:scaleType="matrix"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#33000000"/>
+
+        <ImageView
+            android:id="@+id/mImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center|bottom"
+            />
+
+        </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="겨울동화"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:text="겨울동화"
+            android:textColor="@color/darkgray"
+            android:textSize="15dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/uImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+
+        <TextView
+            android:id="@+id/uText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="겨울동화"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="겨울동화"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/pText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="겨울동화"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/likebutton"
+                    android:background="@drawable/ic_baseline_favorite_border_gray_24" />
+
+                <TextView
+                    android:id="@+id/lText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text=""
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    />
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/replybutton"
+                    android:background="@drawable/ic_baseline_chat_bubble_outline_24" />
+
+                <TextView
+                    android:id="@+id/rText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text=""
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    />
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="right"
+                    android:id="@+id/sharebutton"
+                    android:background="@drawable/ic_baseline_ios_share_24" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/playmusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stateListAnimator="@null"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/button_round"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="재생 완료하고 30P 적립받기"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/grey"
+            android:layout_gravity="center"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerInParent="true"
+                                android:text="재생횟수 후원"
+                                android:textColor="@color/black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/helpimg"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="5dp"
+                                android:layout_toRightOf="@+id/text"
+                                android:paddingTop="2dp"
+                                android:src="@drawable/ic_baseline_help_outline_24" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/subtext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:text="포인트로 음원 후원하기"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                             />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/darkgray"
+                            android:text="후원가능 포인트"
+                            android:textSize="15dp"
+                            android:gravity="left"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible"
+                            android:layout_marginRight="10dp"
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+                        <TextView
+                            android:id="@+id/vText"
+                            android:textColor="@color/songcolor"
+                            android:text=""
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible"
+                            android:layout_marginLeft="10dp"
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/darkgray"
+                            android:text="차감 포인트"
+                            android:textSize="15dp"
+                            android:gravity="left"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible"
+                            android:layout_marginRight="10dp"
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+                        <TextView
+                            android:id="@+id/mText"
+                            android:textColor="@color/yellow"
+                            android:text=""
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:gravity="right"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible"
+                            android:layout_marginLeft="10dp"
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+                    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/darkgray"
+                android:text="재생횟수"
+                android:textSize="15dp"
+                android:layout_gravity="left|center"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/remove"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_baseline_remove_circle_outline_24"
+                    />
+
+                <TextView
+                    android:id="@+id/playcntText"
+                    android:textColor="@color/black"
+                    android:text="1"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_margin="8dp"
+                    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/add"
+                    android:background="@drawable/ic_baseline_add_circle_outline_24"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:text="회"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_margin="1dp"
+                    android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/supportmusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stateListAnimator="@null"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/button_round"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="후원하기"
+            android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/grey" />
+
+                        <!-- 음원 후원 안내 문구 -->
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/img"
+                                android:paddingTop="2dp"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_baseline_priority_high_24" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_toRightOf="@id/img"
+                                android:text="음원 적립 및 후원 안내"
+                                android:textColor="@color/black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:text="· 재생완료시, 포인트를 획득합니다.\n· 음원을 등록 또는 신청하고 재생횟수를 후원해주세요.\n· 잔여재생 소진(0회) 상태로 1주일 경과 시, 삭제됩니다."
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/darkgray"
+                            android:textSize="15dp"
+                            />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/grey"
+                            android:layout_gravity="center"/>
+
+                        <!-- 최근 재생한 유저 -->
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_gravity="center_vertical|center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:paddingTop="2dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_baseline_headphones_24" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="25dp"
+                                    android:text="최근 플레이어"
+                                    android:textColor="@color/black"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold" />
+
+
+                        </RelativeLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/uRecyclerView"
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/grey"
+                        android:layout_gravity="center"/>
+
+                    <!-- 후원 랭킹 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center_vertical|center"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:paddingTop="2dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_baseline_emoji_events_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="후원 랭킹"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/totalcntText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:singleLine="true"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="5dp"
+                            android:text="누적 총 후원 3회"
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                            android:textColor="@color/darkgray"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rRecyclerView"
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>

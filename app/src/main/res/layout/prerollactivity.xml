@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="#000000"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/cpvc_playtop"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/cpvc_video"/>
+
+        <com.example.song4u.Util.ProgressWheel
+            android:id="@+id/cpvc_progress"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            wheel:matProg_barColor="#5588FF"
+            wheel:matProg_progressIndeterminate="true" />
+
+    </RelativeLayout>
+
+
+    <!-- 다윈 -->
+    <com.dawin.DawinVideoAd
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 메조미디어 -->
+    <!-- visibility : gone 일때 광고 받아오지 못함 -->
+    <LinearLayout
+        android:id="@+id/layout_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <!--  브릭스 -->
+    <FrameLayout
+        android:id="@+id/pnl_player"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:padding="5dp"
+        android:textSize="17dp"
+        android:gravity="center_horizontal"
+        android:visibility="visible"
+        android:id="@+id/cpvc_savealarm"/>
+
+</RelativeLayout>

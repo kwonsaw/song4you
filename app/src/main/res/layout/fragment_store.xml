@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/storebtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:text="구매하기"
+        android:textSize="18dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/button_store_selector"
+        />
+
+    <Button
+        android:id="@+id/couponbtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="쿠폰함"
+        android:textSize="18dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/button_store_selector"
+        />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sub_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="구매내역이 없습니다."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:typeface="sans" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sRecyclerView"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cRecyclerView"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View
+        android:id="@+id/subview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"></View>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_all"
+        android:name="com.example.song4u.Fragment.Fragment_More"
+        android:label="@string/title_all"
+        tools:layout="@layout/fragment_more" />
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.song4u.Fragment.Fragment_Mypage"
+        android:label="@string/title_user"
+        tools:layout="@layout/fragment_mypage" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.song4u.Fragment.Fragment_Home"
+        android:label=" "
+        android:icon="@drawable/horiicon"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_point"
+        android:name="com.example.song4u.Fragment.Fragment_Point"
+        android:label="포인트적립"
+        tools:layout="@layout/fragment_point" />
+
+    <fragment
+        android:id="@+id/navigation_store"
+        android:name="com.example.song4u.Fragment.Fragment_Store"
+        android:label="스토어"
+        tools:layout="@layout/fragment_store" />
+
+</navigation>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg">
+
+
+    <TextView
+        android:id="@+id/cnttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="송포유 추천곡 적립 안내"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="· 멜론, 지니 이용권 없이 1분 미리듣기로 하루 1회 적립 가능합니다."
+        android:ellipsize="end"
+        android:textColor="@color/darkgray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="· 음원 재생이 끊기는 상황이 발생하면 포인트 적립이 되지 않습니다. 재생이 끊겼을 경우 처음부터 다시 시도해 주세요."
+        android:ellipsize="end"
+        android:textColor="@color/darkgray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="· 재생이 끊기는 경우 : 중지, 일시중지, 통화, 다른 음원재생, 영상재생 등"
+        android:ellipsize="end"
+        android:textColor="@color/darkgray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@null"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/button_round"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="확인"
+        android:textSize="18dp" />
+
+
+
+</LinearLayout>
